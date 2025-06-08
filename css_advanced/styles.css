@@ -1,0 +1,171 @@
+header
+{
+    
+}
+body{
+    font-family:"Source Sans Pro";
+    align-items: center;
+    margin: 0;
+}#imagebackground
+{
+    background-image: url('css advanced photos/CSS Advanced images/Object.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 ;
+    
+}
+nav
+{
+    height: 100vh; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 50px ;
+}
+nav #logo
+{
+    width: 167.016px;
+    height: 29.461px;
+    flex-shrink: 0;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-flex;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+#getSchooled
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1
+{
+    /* font-size: 120px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+    align-self: center; */
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* main section div span
+{
+    display: inline;
+    color: white;
+    margin-right: 59px;    
+    font-size: 16px;
+    font-weight: 700;
+
+} */
+
+.text-description
+{
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+}
+button
+{
+    width: 162px;
+    height: 44px;
+    background-color: #C271ff;
+    color: white;
+    border: none;
+    border-radius: 22px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin-top: 38px;
+}
+#learnWithPros
+{
+    margin-top: 168px;
+    width: 1009px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* margin-bottom: 87px; */
+}
+#learnWithPros h2
+{
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    align-self: center;
+}
+#learnWithPros span
+{
+    color: #C271FF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 0;
+}
+#imageContent
+{
+    display: flex;
+    flex-direction: row;
+}
+.image
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 139px;
+    
+}
+.image img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background: url(<path-to-image>) lightgray 0px 0px / 100% 100% no-repeat;
+    flex-shrink: 0;
+}
+.image h3
+{
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    margin-bottom: 2px;
+    font-style: normal;
+    font-weight: 900;
+}
+.image p{
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    margin-top: 0;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
