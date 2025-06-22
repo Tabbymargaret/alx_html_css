@@ -1,10 +1,11 @@
 body
 {
-    background-color: #767676;
+    background-color: #fff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0px;
     align-items: center;
+    overflow-x: hidden;
 }
 #header
 {
@@ -97,6 +98,52 @@ button:active
     font-weight: lighter;
 }
 
+#what-we-do
+{
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+    width: 70%;
+    height:fit-content; 
+    margin: auto;
+}
+#what-we-do-description
+{
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+#features
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+#feature
+{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
   body {
     padding: 0 10px;
@@ -156,10 +203,8 @@ ul
     padding: 10px 16px;
     font-size: 16px;
   }
-
   #description {
     font-size: 14px;
     padding: 10px;
   }
 }
-
